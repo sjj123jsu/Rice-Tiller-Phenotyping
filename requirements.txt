@@ -1,0 +1,11 @@
+# Dependencies imported by the segmentation and multi-view post-processing scripts.
+# Install a mutually compatible torch/torchvision pair for your operating system and CUDA setup.
+numpy
+pandas
+opencv-python
+scikit-image
+scikit-learn
+matplotlib
+Pillow
+torch
+torchvision
