@@ -2,6 +2,15 @@
 
 This repository provides the code for rice-plant segmentation and the subsequent skeleton-based, cross-view tiller-point association workflow.
 
+## Model Weights
+
+The  model checkpoint is available below.
+
+- **Checkpoint:** [best_epoch_weights.pth](https://github.com/sjj123jsu/Rice-Tiller-Phenotyping/releases/download/v1.0.0/best_epoch_weights.pth)
+- **Version:** v1.0.0
+
+Please refer to the following sections for installation and inference instructions.
+
 ## Environment setup
 
 Python 3.10 or 3.11 is a reasonable starting point. The versions below are intentionally not pinned because PyTorch and torchvision packages depend on the operating system and CPU/CUDA configuration. Use mutually compatible PyTorch and torchvision builds.
